@@ -1,0 +1,8 @@
+Date: 2024_12_18_11_51_52
+被験者番号: 2
+実験番号: 1
+エラー率[%]: 10
+SocketActive: False
+TTLActive: True
+MiniMap Visible: False
+備考: 1

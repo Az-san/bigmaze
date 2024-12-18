@@ -1,7 +1,0 @@
-image: /home/nakken/ros_ws/res_ws/src/robot_pkg/data/2021_1_15_1_48_58_sm_6_2_B_be/45/map.pgm
-resolution: 0.050000
-origin: [-10.000000, -10.000000, 0.000000]
-negate: 0
-occupied_thresh: 0.65
-free_thresh: 0.196
-

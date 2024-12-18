@@ -1,7 +1,0 @@
-image: /root/ros1_ws/src/robot_pkg/data/2024_10_26_15_10_30___A/map.pgm
-resolution: 0.050000
-origin: [-0.585504, -2.773289, 0.000000]
-negate: 0
-occupied_thresh: 0.65
-free_thresh: 0.196
-

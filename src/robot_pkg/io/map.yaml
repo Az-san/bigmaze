@@ -1,6 +1,6 @@
 image: /root/ros1_ws/src/robot_pkg/io/map.pgm
 resolution: 0.050000
-origin: [-0.931287, -3.207183, 0.000000]
+origin: [-0.866351, -12.403822, 0.000000]
 negate: 0
 occupied_thresh: 0.65
 free_thresh: 0.196

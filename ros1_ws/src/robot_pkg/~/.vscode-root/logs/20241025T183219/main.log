@@ -1,9 +1,0 @@
-2024-10-25 18:32:19.370 [info] update#setState idle
-2024-10-25 18:32:49.354 [info] update#setState checking for updates
-2024-10-25 18:32:49.443 [info] update#setState idle
-2024-10-25 18:33:03.759 [error] [UtilityProcessWorker]: terminated unexpectedly with code 1278400368, signal: unknown
-2024-10-25 18:33:03.793 [info] Extension host with pid 2222 exited with code: 0, signal: unknown.
-2024-10-25 19:32:46.202 [info] update#setState checking for updates
-2024-10-25 19:32:46.448 [info] update#setState idle
-2024-10-25 20:05:17.055 [info] Extension host with pid 1796 exited with code: 0, signal: unknown.
-2024-10-25 20:05:17.178 [info] Extension host with pid 2264 exited with code: 0, signal: unknown.

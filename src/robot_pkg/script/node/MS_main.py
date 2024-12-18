@@ -27,7 +27,7 @@ from common_import import *
 # グローバル
 #==================================================
 CheckIntersectionCLOCK = 0.5
-ErrRate = 5 #エラー率を割合で表す(3割)
+ErrRate = 0 #エラー率を割合で表す(3割)
 SocketActive = False
 TTLActive = True
 
@@ -1233,57 +1233,36 @@ class DecideDirection(
 ## @class CheckErrP
 ## @berif errp状態をチェックしてArduinoに送信
 #==================================================
-class CheckErrP(smach.State):
+class CheckErrP(
+    smach.State
+):
     #==================================================
     ## @fn __init__
     ## @brief コンストラクタ
     ## @param lib ライブラリ群
     ## @return
     #==================================================
-    def __init__(self, lib):
-        smach.State.__init__(self, outcomes=["next", "loop", "except"])
+    def __init__(
+        self,
+        lib = {}
+    ):
+        #==================================================
+        # イニシャライズ
+        #==================================================
+        smach.State.__init__(
+            self,
+            outcomes = ["next", "loop", "except"]
+        )
         self._lib = lib
+        #TTL用にシリアル通信確立
+        if TTLActive:
+            self._lib["com"].openArduino()
 
-        # TTL用のシリアル通信を初期化
-        self.TTLActive = True  # TTLActiveの初期化（必要に応じて外部から設定可能にする）
-        if self.TTLActive:
-            try:
-                self._lib["com"].openArduino()
-                print("[DEBUG] Arduino serial connection established.")
-            except Exception as e:
-                print(f"[ERROR] Failed to open Arduino connection: {e}")
-                self.TTLActive = False  # エラー時にTTL機能を無効化
+        #==================================================
+        # ROSインタフェース
+        #==================================================
 
-
-    #==================================================
-    ## @fn execute
-    ## @brief ステート実行ロジック
-    ## @param userdata ユーザデータ
-    ## @return 次のステート
-    #==================================================
-    def execute(self, userdata):
-        try:
-            # errp値を取得（例: トピックやパラメータサーバーから取得）
-            errp = self._lib["if"].get_errp()  # get_errpメソッドでerrpを取得する仮定
-        except KeyError as e:
-            print(f"[ERROR] Missing key in _lib: {e}")
-            return "except"
-
-        # errp値に基づく処理
-        if errp == 1:
-            print("[DEBUG] errp=1 detected. Sending TTL signal to Arduino.")
-            if self.TTLActive:
-                try:
-                    self._lib["com"].writeArduino("1")  # Arduinoに信号を送信
-                except Exception as e:
-                    print(f"[ERROR] Failed to send TTL signal: {e}")
-            return "loop"  # 再試行する
-        else:
-            print("[DEBUG] errp=0 detected. Proceeding to next state.")
-            return "next"  # 次のステートへ進む
-
-
-
+        return
 
     #==================================================
     ## @fn __del__
@@ -1298,14 +1277,6 @@ class CheckErrP(smach.State):
 
         return
 
-
-
-    #==================================================
-    ## @fn execute
-    ## @brief 実行関数
-    ## @param 
-    ## @return
-    #==================================================
     def execute(
         self,
         userdata

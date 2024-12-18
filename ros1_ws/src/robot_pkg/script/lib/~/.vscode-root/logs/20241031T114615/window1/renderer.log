@@ -1,8 +1,0 @@
-2024-10-31 11:46:17.425 [info] Started local extension host with pid 2340.
-2024-10-31 11:46:17.853 [error] [/root/.vscode/extensions/github.copilot-chat-0.22.0]: Extension is not compatible with Code 1.94.2. Extension requires: ^1.95.0-20241022.
-2024-10-31 11:46:20.470 [info] [perf] Render performance baseline is 21ms
-2024-10-31 11:46:37.142 [info] Started local extension host with pid 2599.
-2024-10-31 11:46:39.755 [info] [perf] Render performance baseline is 22ms
-2024-10-31 11:46:40.203 [error] [/root/.vscode/extensions/github.copilot-chat-0.22.0]: Extension is not compatible with Code 1.94.2. Extension requires: ^1.95.0-20241022.
-2024-10-31 11:46:48.741 [error] Cannot read the extension from /root/.vscode/extensions/github.copilot-chat-0.22.0: ScanningExtension: Cannot read the extension from /root/.vscode/extensions/github.copilot-chat-0.22.0
-    at Ql.scanLocalExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:73154)

@@ -1,9 +1,0 @@
-2024-10-25 18:33:00.848 [error] [uncaught exception in sharedProcess]: A system error occurred (ENOENT: no such file or directory, scandir '/root/ros1_ws/src/robot_pkg/~/.vscode-root/clp/afdbbd3261446181d36f4ccee719fb04.zh-cn'): Error: ENOENT: no such file or directory, scandir '/root/ros1_ws/src/robot_pkg/~/.vscode-root/clp/afdbbd3261446181d36f4ccee719fb04.zh-cn'
-    at async Object.readdir (node:internal/original-fs/promises:950:18)
-    at async Object.go (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:6798)
-    at async _c.g (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:20535)
-2024-10-25 18:37:20.690 [error] [network] #27: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INSUFFICIENT_RESOURCES
-2024-10-25 18:37:23.111 [error] [network] #28: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_INSUFFICIENT_RESOURCES
-2024-10-25 18:37:23.781 [error] [network] #29: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INSUFFICIENT_RESOURCES
-2024-10-25 18:37:29.878 [error] [network] #30: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INSUFFICIENT_RESOURCES
-2024-10-25 18:37:34.148 [error] [network] #31: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INSUFFICIENT_RESOURCES

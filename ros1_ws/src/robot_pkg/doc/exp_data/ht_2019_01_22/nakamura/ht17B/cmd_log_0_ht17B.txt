@@ -1,7 +1,0 @@
-id,human,robot,which? (left = L, right = R, straight = S, back = B)
-
-1,R,L,human
-
-2,L,L,human
-
-3,L,L,robot

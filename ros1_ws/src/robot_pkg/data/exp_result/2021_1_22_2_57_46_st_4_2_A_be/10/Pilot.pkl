@@ -1,4 +1,0 @@
-(lp0
-S'robot'
-p1
-a.

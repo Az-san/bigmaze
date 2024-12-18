@@ -1,7 +1,0 @@
-image: /home/natume-lab/ros_ws/res_ws/src/robot_pkg/data/2021_1_29_6_50_38_ht_4_2_A_be/18/map.pgm
-resolution: 0.050000
-origin: [-10.000000, -10.000000, 0.000000]
-negate: 0
-occupied_thresh: 0.65
-free_thresh: 0.196
-

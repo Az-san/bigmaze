@@ -71,7 +71,7 @@ class LibCom:
     #==================================================
     def initSocket(self):
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.sock.bind(("172.17.6.210", 52350))  # 自身のIPアドレスとポート番号を指定
+        self.sock.bind(("172.27.32.1", 52350))  # 自身のIPアドレスとポート番号を指定
         print("waiting...")
         self.sock.listen(5)
         self.clientsocket, self.address = self.sock.accept()

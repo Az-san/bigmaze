@@ -2,5 +2,4 @@
 build/
 devel/
 .vscode/
-ros1_ws/src/tb3_pkgs/turtlebot3_simulations
-src/tb3_pkgs/turtlebot3_simulations
+

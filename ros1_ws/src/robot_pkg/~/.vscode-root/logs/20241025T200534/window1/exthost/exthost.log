@@ -1,4 +1,0 @@
-2024-10-25 20:05:37.378 [info] Extension host with pid 6421 started
-2024-10-25 20:05:37.378 [info] Skipping acquiring lock for /root/ros1_ws/src/robot_pkg/~/.vscode-root/User/workspaceStorage/cf1dfcec109ddbd66d5b7f0d650e9f68.
-2024-10-25 20:05:38.955 [info] Extension host terminating: renderer closed the MessagePort
-2024-10-25 20:05:38.956 [info] Extension host with pid 6421 exiting with code 0

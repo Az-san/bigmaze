@@ -1,8 +1,0 @@
-(lp0
-S'human'
-p1
-aS'human'
-p2
-aS'human'
-p3
-a.

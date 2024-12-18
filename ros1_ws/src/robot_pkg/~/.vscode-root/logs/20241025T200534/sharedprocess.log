@@ -1,4 +1,0 @@
-2024-10-25 20:06:16.721 [error] [uncaught exception in sharedProcess]: システム エラーが発生しました (ENOENT: no such file or directory, scandir '/root/ros1_ws/src/robot_pkg/~/.vscode-root/clp/afdbbd3261446181d36f4ccee719fb04.zh-cn'): Error: ENOENT: no such file or directory, scandir '/root/ros1_ws/src/robot_pkg/~/.vscode-root/clp/afdbbd3261446181d36f4ccee719fb04.zh-cn'
-    at async Object.readdir (node:internal/original-fs/promises:950:18)
-    at async Object.go (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:33:6798)
-    at async _c.g (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:20535)

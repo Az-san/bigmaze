@@ -1,4 +1,0 @@
-2024-10-25 18:32:20.646 [info] Started local extension host with pid 1796.
-2024-10-25 18:32:23.592 [info] [perf] Render performance baseline is 21ms
-2024-10-25 18:37:23.024 [error] [network] #4: https://az764295.vo.msecnd.net/extensions/chat.json - error GET Failed to fetch
-2024-10-25 18:37:23.025 [warning] Failed to fetch chat participant registry Failed to fetch

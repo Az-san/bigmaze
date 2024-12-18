@@ -1,6 +1,0 @@
-(lp0
-S'robot'
-p1
-aS'robot'
-p2
-a.
