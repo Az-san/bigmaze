@@ -1,0 +1,23 @@
+<sdf version='1.5'>
+  <!-- Draw Model -->
+  <model name="mazev1">
+    <static>true</static>
+    <link name="mazev1">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_maze2/mazev0/mazev01.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_maze2/mazev0/mazev01.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

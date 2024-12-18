@@ -1,0 +1,11 @@
+<launch>
+
+  <!-- navigation -->
+  <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch">
+  </include>
+
+  <!-- gmapping -->
+  <include file="$(find turtlebot3_slam)/launch/turtlebot3_gmapping.launch">
+  </include>
+
+</launch>
